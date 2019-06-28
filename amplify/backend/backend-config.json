@@ -4,26 +4,8 @@
 			"service": "AppSync",
 			"providerPlugin": "awscloudformation",
 			"output": {
-				"securityType": "AMAZON_COGNITO_USER_POOLS"
+				"securityType": "API_KEY"
 			}
-		}
-	},
-	"auth": {
-		"myrmppc3f68c65": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation"
-		}
-	},
-	"hosting": {
-		"S3AndCloudFront": {
-			"service": "S3AndCloudFront",
-			"providerPlugin": "awscloudformation"
-		}
-	},
-	"storage": {
-		"s335ff29cb": {
-			"service": "S3",
-			"providerPlugin": "awscloudformation"
 		}
 	}
 }

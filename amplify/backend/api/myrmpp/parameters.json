@@ -1,10 +1,4 @@
 {
     "AppSyncApiName": "myrmpp",
-    "DynamoDBBillingMode": "PAY_PER_REQUEST",
-    "AuthCognitoUserPoolId": {
-        "Fn::GetAtt": [
-            "authmyrmppc3f68c65",
-            "Outputs.UserPoolId"
-        ]
-    }
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
 }
